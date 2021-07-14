@@ -32,6 +32,5 @@
 <script src="{{asset('js/settings.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
 
-
 </body>
 </html>
