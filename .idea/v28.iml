@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/v28-dev/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/v28-dev/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/v28-dev/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/v28-dev/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/v28-dev/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
