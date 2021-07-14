@@ -14,8 +14,6 @@
 
 <body>
 
-
-
 <div class="wrapper" id="app">
     @include('layouts.partials.navbar')
 
@@ -34,3 +32,4 @@
 
 </body>
 </html>
+
