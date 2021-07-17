@@ -2,26 +2,21 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Auth::routes();
+
+//Route::get('/login', function() {
+//   return view('auth.login');
+//})->name('login');
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
 })->name('home');
 
-Route::get('/cards', function() {
+Route::get('cards', function() {
     return view('cards');
 })->name('cards');
 
-Route::get('/profile', function() {
+Route::get('profile', function() {
     return view('users.profile');
 })->name('profile');
 
@@ -44,3 +39,11 @@ Route::get('icons', function() {
 Route::get('charts', function() {
     return view('charts');
 })->name('charts');
+
+Route::get('toasts', function() {
+   return view('toasts');
+})->name('toasts');
+//Toast messages
+Route::post('toast/{color}', [\App\Http\Controllers\MessageController::class, 'message'])->name('toast');
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

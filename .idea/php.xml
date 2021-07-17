@@ -108,8 +108,10 @@
       <path value="$PROJECT_DIR$/v28-dev/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/v28-dev/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/v28-dev/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/v28-dev/vendor/laravel/ui" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/v28-dev/vendor/autoload.php" />

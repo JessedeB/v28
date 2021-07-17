@@ -50,6 +50,12 @@
             </li>
 
             <li class="sidebar-item">
+                <a class="sidebar-link" href="{{route('toasts')}}">
+                    <i class="align-middle" data-feather="square"></i> <span class="align-middle">Toasts</span>
+                </a>
+            </li>
+
+            <li class="sidebar-item">
                 <a class="sidebar-link" href="{{route('forms')}}">
                     <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Forms</span>
                 </a>
