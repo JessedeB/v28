@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme" class="theme" value="">
 
-    <title>Laravel</title>
+    <title>{{env('APP_NAME')}} - {{request()->segment(1) ?? 'home'}}</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,10 +16,13 @@
 <body>
 
 <div class="wrapper" id="app">
-    @include('layouts.partials.navbar')
-
+    @if(auth()->check())
+        @include('layouts.partials.navbar')
+    @endif
     <div class="main">
-        @include('layouts.partials.topnav')
+        @if(auth()->check())
+            @include('layouts.partials.topnav')
+        @endif
         <main class="content">
             @yield('content')
         </main>
@@ -26,10 +30,14 @@
 
 </div>
 
+
 <script src="{{mix('js/app.js')}}"></script>
 <script src="{{asset('js/settings.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+@yield('scripts')
 </body>
 </html>
 
